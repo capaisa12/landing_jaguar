@@ -1,0 +1,9 @@
+body {
+  background-image: url("../images/jaguar-xe.jpg"); /* Define la imagen de Fondo */
+  background-repeat: no-repeat; /* Evita que la imagen se repita horizontal y verticalmente */
+  background-position: center center; /* Centra la imagen vertical y horizontalmente */
+  background-size: cover; /* Define el tamaño de la imagen de cubierta o toda la pantalla */
+  background-attachment: fixed; /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+  background-color: #66999;
+  font-family: 'Roboto', sans-serif;
+}
