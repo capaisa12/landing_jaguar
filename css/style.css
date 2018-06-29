@@ -5,5 +5,34 @@ body {
   background-size: cover; /* Define el tamaño de la imagen de cubierta o toda la pantalla */
   background-attachment: fixed; /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
   background-color: #66999;
-  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  background-color: rgba(0,0,0,.65); /*Define el color de fondo del container con una trasparencia de 0.65 */
+  max-width: 600px; /*Define el ancho maximo del container */
+  border-radius: 8px; /*Redondea las esquinas de los bordes del container */
+  margin: 45px 50px 75px 50px; /* Define las margenes del container */
+  padding: 15px 15px 15px 15px; /*Define el espacio interno del container */
+  font-family: 'Roboto', sans-serif; /*Define el tipo de letra a usar */
+  font-size: 24px; /*Define el tamaño de la letra */
+  color: white; /*Define el color de la letra */
+  font-weight: bold; /*Define el peso o grosor de la letra */
+}
+
+.container p {
+  padding-top: 25px; /*Define espacio interno superior */
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.container button {
+  margin: 15px 0px 0px 0px;
+  padding: 10px 20px;;
+  border-radius: 3px;
+  font-size: 16px;
+  color: white;
+  background-color: #DB3030;
+  border-style: none;
+  text-align: center; /* Alinea el texto dentro del boton */
+  cursor: pointer /* Hace cambiar el cursor de flecha a manito apuntando */
 }
